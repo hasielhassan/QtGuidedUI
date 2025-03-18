@@ -1,0 +1,20 @@
+{
+    "intro_message": "Welcome to the interactive guide for this application!",
+    "outro_message": "You have completed the guide. Enjoy the app!",
+    "dialog_image_width": 400,
+    "steps": [
+        {
+            "object_name": "btnSave",
+            "description": "Click this button to save your work.",
+            "image": "images/sample.png",
+            "order": 1
+        },
+        {
+            "object_name": "tabSettings",
+            "description": "Here you can configure advanced settings.",
+            "image": "images/sample.gif",
+            "order": 2,
+            "pre_action": "show_settings_tab"
+        }
+    ]
+}
